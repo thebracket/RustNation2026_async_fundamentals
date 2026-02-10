@@ -37,8 +37,6 @@
     - [Broadcast Channels](./06_channels/broadcast_channels.md)
     - [Channels with Split RX/TX in Servers](./06_channels/channels_with_split_rxtx_in_servers.md)
     - [Backpressure](./06_channels/backpressure.md)
-    - [Your Turn: Add a second request/response command]()
-    - [Your Turn: Tune channel capacity under load]()
 - [Shared State](./07_shared_state/intro.md)
     - [Arc vs References](./07_shared_state/arc_vs_references.md)
     - [Mutex](./07_shared_state/mutex.md)
