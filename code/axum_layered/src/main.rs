@@ -24,10 +24,10 @@ struct HelloJson {
 }
 
 async fn hello_json(
-    Extension(message): Extension<Arc<HelloJson>>, // Extract the layer here
+    Extension(message): Extension<Arc<String>>, // Extract the layer here
 ) -> axum::Json<HelloJson> {
     let reply = HelloJson {
-        message: message.message.clone(),
+        message: (*message).clone(),
     };
     axum::Json(reply)
 }

@@ -2,7 +2,7 @@
 authors = ["Herbert Wolverson"]
 language = "en"
 src = "src"
-title = "Async Foundations"
+title = "Async"
 
 [rust]
 edition = "2021"
